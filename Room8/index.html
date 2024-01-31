@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Clue 8</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="timer">1:00</div>
+        <div id="question">Choose the door that satisfies the logical condition!</div>
+        <div class="doors">
+            <div class="door" onclick="checkDoor('left')">Left</div>
+            <div class="door" onclick="checkDoor('middle')">Middle</div>
+            <div class="door" onclick="checkDoor('right')">Right</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+          displayNextQuestion();
+    </script>
+</body>
+
+</html>
