@@ -1,1 +1,93 @@
-const _0x56a1fa=_0xfbd8;(function(_0x446964,_0x38f481){const _0x50ac37=_0xfbd8,_0x12b74a=_0x446964();while(!![]){try{const _0x260e86=parseInt(_0x50ac37(0x19a))/0x1+-parseInt(_0x50ac37(0x197))/0x2+-parseInt(_0x50ac37(0x1bc))/0x3*(-parseInt(_0x50ac37(0x1af))/0x4)+parseInt(_0x50ac37(0x19d))/0x5*(parseInt(_0x50ac37(0x198))/0x6)+-parseInt(_0x50ac37(0x1a3))/0x7*(-parseInt(_0x50ac37(0x193))/0x8)+parseInt(_0x50ac37(0x1b2))/0x9*(-parseInt(_0x50ac37(0x1a0))/0xa)+parseInt(_0x50ac37(0x191))/0xb;if(_0x260e86===_0x38f481)break;else _0x12b74a['push'](_0x12b74a['shift']());}catch(_0x1fe3ab){_0x12b74a['push'](_0x12b74a['shift']());}}}(_0x996a,0xd32b2));var user;while(!![]){user=prompt(_0x56a1fa(0x1b3));if(user===_0x56a1fa(0x1ad))break;else alert(_0x56a1fa(0x1b9));}let timeInSeconds=0x5a,incorrectAttempts=0x0,currentQuestionIndex=0x0;const timerElement=document['getElementById'](_0x56a1fa(0x1a7)),questionElement=document[_0x56a1fa(0x1a1)]('question'),doorsElement=document[_0x56a1fa(0x1a2)](_0x56a1fa(0x1ba)),questions=[_0x56a1fa(0x1b7),'Select\x20the\x20door\x20that\x20is\x20on\x20the\x20right\x20AND\x20has\x20an\x20odd\x20number\x20of\x20letters.','Given\x20that\x20the\x20left\x20door\x20is\x20NOT\x20chosen\x20prior,\x20choose\x20the\x20middle\x20door.','Choose\x20the\x20door\x20that\x20is\x20on\x20the\x20left\x20OR\x20has\x20the\x20letter\x20\x27r\x27\x20in\x20its\x20name.',_0x56a1fa(0x1b4),_0x56a1fa(0x19c),_0x56a1fa(0x195),_0x56a1fa(0x1bb),_0x56a1fa(0x196),'Given\x20that\x20the\x20right\x20door\x20is\x20chosen\x20AND\x20the\x20left\x20door\x20is\x20NOT\x20chosen,\x20choose\x20the\x20middle\x20door.',_0x56a1fa(0x1bd),_0x56a1fa(0x1ae),_0x56a1fa(0x1a9),'Given\x20that\x20the\x20right\x20door\x20is\x20NOT\x20chosen\x20AND\x20it\x20has\x20the\x20letter\x20\x27e\x27\x20in\x20its\x20name,\x20choose\x20the\x20left\x20door.',_0x56a1fa(0x1b6),'If\x20the\x20middle\x20door\x20is\x20chosen\x20prior,\x20then\x20the\x20right\x20door\x20must\x20also\x20be\x20chosen.','Given\x20that\x20the\x20left\x20door\x20is\x20chosen\x20AND\x20the\x20right\x20door\x20is\x20NOT\x20chosen,\x20choose\x20the\x20middle\x20door.','Choose\x20the\x20door\x20that\x20has\x20the\x20same\x20number\x20of\x20letters\x20as\x20the\x20word\x20\x27logic\x27.','Select\x20the\x20door\x20that\x20is\x20on\x20the\x20right\x20AND\x20has\x20a\x20prime\x20number\x20of\x20letters.'],answers=[_0x56a1fa(0x1be),_0x56a1fa(0x1a4),_0x56a1fa(0x1be),'right',_0x56a1fa(0x19b),_0x56a1fa(0x1a4),'right','left','left','middle',_0x56a1fa(0x1be),'middle','left',_0x56a1fa(0x19b),_0x56a1fa(0x1be),_0x56a1fa(0x1a4),'middle',_0x56a1fa(0x1be),_0x56a1fa(0x1a4),_0x56a1fa(0x19b)];function updateTimer(){const _0x1d03c3=_0x56a1fa;timerElement[_0x1d03c3(0x1aa)]=Math['floor'](timeInSeconds/0x3c)+':'+(timeInSeconds%0x3c)[_0x1d03c3(0x1a6)]()[_0x1d03c3(0x1ac)](0x2,'0');}function displayNextQuestion(){const _0x38c341=_0x56a1fa;currentQuestionIndex++,currentQuestionIndex<questions[_0x38c341(0x1ab)]?(questionElement[_0x38c341(0x1aa)]=questions[currentQuestionIndex],doorsElement[_0x38c341(0x1b8)][_0x38c341(0x1b0)](_0x38c341(0x1b1))):(alert(_0x38c341(0x192)),window[_0x38c341(0x19f)][_0x38c341(0x1a5)]=_0x38c341(0x1b5));}function _0x996a(){const _0x2450b3=['toString','timer','reload','If\x20the\x20left\x20door\x20is\x20chosen\x20prior,\x20then\x20the\x20middle\x20door\x20must\x20be\x20avoided.','textContent','length','padStart','I\x20Love\x20You','Select\x20the\x20door\x20that\x20is\x20NOT\x20on\x20the\x20extreme\x20ends\x20AND\x20has\x20an\x20even\x20number\x20of\x20letters.','64whekJm','remove','disabled','81uExBXd','Enter\x20The\x20Clue\x20To\x20Access\x20The\x20Site\x20:','If\x20the\x20right\x20door\x20is\x20chosen\x20prior,\x20then\x20the\x20middle\x20door\x20must\x20be\x20avoided.','../Room9/index.html','Choose\x20the\x20door\x20that\x20is\x20on\x20the\x20left\x20OR\x20the\x20right\x20door\x20has\x20an\x20odd\x20number\x20of\x20letters.','Choose\x20the\x20door\x20that\x20is\x20NOT\x20on\x20the\x20extreme\x20ends.','classList','Incorrect!\x20Access\x20denied.','.doors','If\x20the\x20middle\x20door\x20is\x20chosen\x20prior\x20OR\x20the\x20right\x20door\x20is\x20chosen\x20prior,\x20then\x20choose\x20the\x20left\x20door.','62178ugkKwg','Choose\x20the\x20door\x20that\x20has\x20more\x20than\x20two\x20vowels\x20in\x20its\x20name.','middle','16447079GcTgph','Congratulations!\x20You\x20have\x20completed\x20all\x20the\x20questions.\x20The\x20Password\x20For\x20the\x20Next\x20Clue\x20Is:\x20Logic\x20Gates','7594352WnNiMp','add','Choose\x20the\x20door\x20that\x20is\x20on\x20the\x20right\x20AND\x20does\x20NOT\x20have\x20the\x20letter\x20\x27o\x27\x20in\x20its\x20name.','Choose\x20the\x20door\x20that\x20is\x20on\x20the\x20extreme\x20ends\x20OR\x20has\x20an\x20even\x20number\x20of\x20letters.','2980210pVxgSR','6lxwwWp','You\x20FAILED','242239tXoWdP','left','Given\x20that\x20the\x20left\x20door\x20is\x20chosen\x20AND\x20it\x20has\x20more\x20than\x20five\x20letters,\x20choose\x20the\x20right\x20door.','278210lbawTe','Incorrect\x20door!\x20Try\x20again.','location','798810ICWeUi','getElementById','querySelector','7dAMHZs','right','href'];_0x996a=function(){return _0x2450b3;};return _0x996a();}function checkDoor(_0x6532a1){const _0x5bb1bc=_0x56a1fa;doorsElement[_0x5bb1bc(0x1b8)][_0x5bb1bc(0x194)]('disabled'),_0x6532a1===answers[currentQuestionIndex]?(displayNextQuestion(),timeInSeconds+=0x5):(timeInSeconds-=0xa,incorrectAttempts++,alert(_0x5bb1bc(0x19e)),doorsElement[_0x5bb1bc(0x1b8)][_0x5bb1bc(0x1b0)](_0x5bb1bc(0x1b1))),updateTimer();}function _0xfbd8(_0x31e7a8,_0x47eeba){const _0x996a89=_0x996a();return _0xfbd8=function(_0xfbd80c,_0xf7df03){_0xfbd80c=_0xfbd80c-0x191;let _0x1b07f7=_0x996a89[_0xfbd80c];return _0x1b07f7;},_0xfbd8(_0x31e7a8,_0x47eeba);}function countdown(){updateTimer(),setInterval(()=>{const _0x2409d5=_0xfbd8;timeInSeconds>0x0?(timeInSeconds--,updateTimer()):(questionElement['textContent']=_0x2409d5(0x199),location[_0x2409d5(0x1a8)]());},0x3e8);}countdown();
+var user
+while (true) {
+  user = prompt('Enter The Clue To Access The Site :')
+  if (user === 'I Love You') {
+    break
+  } else {
+    alert('Incorrect! Access denied.')
+  }
+}
+let timeInSeconds = 90,
+  incorrectAttempts = 0,
+  currentQuestionIndex = 0
+const timerElement = document.getElementById('timer'),
+  questionElement = document.getElementById('question'),
+  doorsElement = document.querySelector('.doors'),
+  questions = [
+    'Choose the door that is NOT on the extreme ends.',
+    'Select the door that is on the right AND has an odd number of letters.',
+    'Given that the left door is NOT chosen prior, choose the middle door.',
+    "Choose the door that is on the left OR has the letter 'r' in its name.",
+    'If the right door is chosen prior, then the middle door must be avoided.',
+    'Given that the left door is chosen AND it has more than five letters, choose the right door.',
+    "Choose the door that is on the right AND does NOT have the letter 'o' in its name.",
+    'If the middle door is chosen prior OR the right door is chosen prior, then choose the left door.',
+    'Choose the door that is on the extreme ends OR has an even number of letters.',
+    'Given that the right door is chosen AND the left door is NOT chosen, choose the middle door.',
+    'Choose the door that has more than two vowels in its name.',
+    'Select the door that is NOT on the extreme ends AND has an even number of letters.',
+    'If the left door is chosen prior, then the middle door must be avoided.',
+    "Given that the right door is NOT chosen AND it has the letter 'e' in its name, choose the left door.",
+    'Choose the door that is on the left OR the right door has an odd number of letters.',
+    'If the middle door is chosen prior, then the right door must also be chosen.',
+    'Given that the left door is chosen AND the right door is NOT chosen, choose the middle door.',
+    "Choose the door that has the same number of letters as the word 'logic'.",
+    'Select the door that is on the right AND has a prime number of letters.',
+  ],
+  answers = [
+    'middle',
+    'right',
+    'middle',
+    'right',
+    'left',
+    'right',
+    'right',
+    'left',
+    'left',
+    'middle',
+    'middle',
+    'middle',
+    'left',
+    'left',
+    'middle',
+    'right',
+    'middle',
+    'middle',
+    'right',
+    'left',
+  ]
+function updateTimer() {
+  timerElement.textContent =
+    Math.floor(timeInSeconds / 60) +
+    ':' +
+    (timeInSeconds % 60).toString().padStart(2, '0')
+}
+function displayNextQuestion() {
+  currentQuestionIndex++
+  currentQuestionIndex < questions.length
+    ? ((questionElement.textContent = questions[currentQuestionIndex]),
+      doorsElement.classList.remove('disabled'))
+    : (alert(
+        'Congratulations! You have completed all the questions. The Password For the Next Clue Is: Logic Gates'
+      ),
+      (window.location.href = '../Room9/index.html'))
+}
+function checkDoor(_0x6532a1) {
+  doorsElement.classList.add('disabled')
+  _0x6532a1 === answers[currentQuestionIndex]
+    ? (displayNextQuestion(), (timeInSeconds += 5))
+    : ((timeInSeconds -= 10),
+      incorrectAttempts++,
+      alert('Incorrect door! Try again.'),
+      doorsElement.classList.remove('disabled'))
+  updateTimer()
+}
+function countdown() {
+  updateTimer()
+  setInterval(() => {
+    timeInSeconds > 0
+      ? (timeInSeconds--, updateTimer())
+      : ((questionElement.textContent = 'You FAILED'), location.reload())
+  }, 1000)
+}
+countdown()
