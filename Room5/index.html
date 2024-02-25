@@ -4,82 +4,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="icon" href="https://th.bing.com/th/id/R.e2cd8789e0b47256eaeeb8ca2f5ddabc?rik=yVBKWC%2fJvmATmw&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f8%2fMultiplication-Sign-PNG-HD.png&ehk=5Qa9cUSc6SnErDSqA0QHVGXZtBkQaUOBnIE%2fU0CmfKY%3d&risl=&pid=ImgRaw&r=0" type="image/png">
-    <style>
-        body {
-            background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%), url("https://wallpapercave.com/wp/wp4022777.jpg");
-            margin: 0;
-            padding: 0;
-        }
-
-        .clue {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 520px;
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            text-align: center;
-        }
-
-        .clue h1 {
-            font-family: sans-serif;
-            font-size: 60px;
-            color: #fff;
-            font-weight: bold;
-            text-transform: uppercase;
-            margin: 0;
-            background-color: #000;
-        }
-
-        .clue p {
-            font-size: 20px;
-            color: #d1d1d1;
-            text-transform: uppercase;
-            margin: 20px 0;
-        }
-
-        input[type="text"] {
-            padding: 10px;
-            margin-top: 10px;
-            width: 80%;
-            box-sizing: border-box;
-        }
-
-        .not {
-            padding: 10px;
-            margin-top: 10px;
-            cursor: pointer;
-            width: 80%;
-            box-sizing: border-box;
-        }
-
-        .blue {
-            background-color: #5edaf0;
-            color: #000;
-            padding: 10px 25px;
-            border: none;
-            border-radius: 5px;
-            font-size: 20px;
-            font-weight: bold;
-            cursor: pointer;
-            box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4);
-            margin-top: 10px;
-        }
-    </style>
-    <title>Meanie!</title>
+    <title>Numerical Wisdom</title>
 </head>
 
 <body>
+
     <div class="clue">
-        <h1>What Do You Mean?</h1>
-        <p>34 18 24 52 12 16 12 8</p>
-        <input type="text" id="answer" placeholder="Enter your answer">
-        <button class="not" onclick="checkAnswer()">Submit</button>
-        <button class="blue"><a href="../Room6/index.html">Clue #6</a></button>
+        <p>A Wise Man Once Told Me: "Embracing the whole essence of nature, we find ourselves entwined in a tapestry of
+            real experiences, navigating the irrational twists of positive and negative emotions that shape our journey."
+        </p>
+        <div id="clicks">0</div>
+
+        <button id="button1" onclick="checkButtonClick(1)">2.3</button>
+        <button id="button2" onclick="checkButtonClick(2)">-1</button>
+        <button id="button3" onclick="checkButtonClick(3)">0</button>
+        <button id="button4" onclick="checkButtonClick(4)">π</button>
+        <button id="button5" onclick="checkButtonClick(5)">100</button>
     </div>
-    <script src="script.js" defer></script>
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
