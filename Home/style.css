@@ -218,6 +218,17 @@ h3:hover {
     padding: 20px;
   }
 
+  .about-me img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+
+  .about-me-text {
+    max-width: 100%;
+    text-align: left;
+  }
+
   .footer {
     padding: 20px;
   }
