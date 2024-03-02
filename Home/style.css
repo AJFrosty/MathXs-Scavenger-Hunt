@@ -193,7 +193,7 @@ h3:hover {
   padding: 10px 20px;
 }
 
-/* Media Queries */
+/* For Mobile Ppl */
 @media only screen and (max-width: 768px) {
   .header {
     flex-direction: column;
