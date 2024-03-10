@@ -192,3 +192,44 @@ h3:hover {
   color: #a1a1a1;
   padding: 10px 20px;
 }
+
+/* For Mobile Ppl */
+@media only screen and (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-items {
+    margin-top: 20px;
+  }
+
+  .intro {
+    padding: 40px 20px;
+    text-align: center;
+  }
+
+  .achievements .work {
+    flex: 1 1 calc(100% - 20px);
+    margin: 10px 0;
+  }
+
+  .about-me {
+    padding: 20px;
+  }
+
+  .about-me img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+  }
+
+  .about-me-text {
+    max-width: 100%;
+    text-align: left;
+  }
+
+  .footer {
+    padding: 20px;
+  }
+}
