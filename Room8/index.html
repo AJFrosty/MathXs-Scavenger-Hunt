@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://th.bing.com/th/id/R.e2cd8789e0b47256eaeeb8ca2f5ddabc?rik=yVBKWC%2fJvmATmw&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f8%2fMultiplication-Sign-PNG-HD.png&ehk=5Qa9cUSc6SnErDSqA0QHVGXZtBkQaUOBnIE%2fU0CmfKY%3d&risl=&pid=ImgRaw&r=0" type="image/png">
+    <title>Logic Gates</title>
+</head>
+
+<body>
+    <div class="container">
+        <div id="timer">1:00</div>
+        <div id="question">Choose the door that satisfies the logical condition!</div>
+        <div class="doors">
+            <div class="door" onclick="checkDoor('left')">Left</div>
+            <div class="door" onclick="checkDoor('middle')">Middle</div>
+            <div class="door" onclick="checkDoor('right')">Right</div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <script>
+          displayNextQuestion();
+    </script>
+</body>
+
+</html>
