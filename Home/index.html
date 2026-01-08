@@ -1,74 +1,209 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="https://th.bing.com/th/id/R.e2cd8789e0b47256eaeeb8ca2f5ddabc?rik=yVBKWC%2fJvmATmw&riu=http%3a%2f%2fwww.pngmart.com%2ffiles%2f8%2fMultiplication-Sign-PNG-HD.png&ehk=5Qa9cUSc6SnErDSqA0QHVGXZtBkQaUOBnIE%2fU0CmfKY%3d&risl=&pid=ImgRaw&r=0" type="image/png">
-  <title>MathXs Scavenger Hunt</title>
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>MathXs Education</title>
+    <link rel="stylesheet" href="assets/styles.css" />
 </head>
 
 <body>
-  <header class="header">
-    <a href="https://www.instagram.com/mathxs_268/" class="logo">MathXs</a>
-    <nav class="nav-items">
-      <a href="rules.html">Rules</a>
-      <a href="https://forms.gle/xzUpNzRdnUnM9phw9">Registration Form</a>
-      <a href="#">First Edition</a>
-    </nav>
-  </header>
-  <main>
-    <div class="intro">
-      <h1>MathXs Scavenger Hunt</h1>
-      <p>Welcome to the Second Edition of the MathXs Scavenger Hunt in Collaboration with the American Corner Antigua!</p>
-      <button><a href="../Room1/index.html">Clue #1</a></button>
-    </div>
-    <div class="achievements">
-      <div class="work">
-        <i class="fas fa-atom"></i>
-        <p class="work-heading">About Us</p>
-        <p class="work-text">Beat 10 Rooms To Be The Victor!</p>
-      </div>
-      <div class="work">
-        <i class="fas fa-skiing"></i>
-        <p class="work-heading">Skills</p>
-        <p class="work-text">Difficulty: Begginer (3rd) Form Level Mathemetics!</p>
-      </div>
-      <div class="work">
-        <i class="fas fa-ethernet"></i>
-        <p class="work-heading">Timeline</p>
-        <p class="work-text">March 14, 2025 @1:30PM - March 14, 2025 @3:30PM</p>
-      </div>
-    </div>
-    <div class="about-me" id="Me">
-      <div class="about-me-text">
-        <h2>About Me</h2>
-        <h3 class="hidden">Answer: Gold Coins</h3>
-        <p>I'm Ajante Fraser, the founder of MathXs, a platform initially created to support secondary school students in CSEC mathematics. Currently I am a student at the University of the West Indies: Five Islands Campus, my passion for mathematics extends beyond the classroom. As an advocate for the subject, I find fulfillment in promoting its importance and impact. MathXs is a testament to my commitment to making mathematics accessible and enjoyable for students, fostering a positive learning environment. </p>
-      </div>
-      <img src="../Home/img/Me.jpg" alt="me">
-    </div>
-  </main>
-  <footer class="footer">
-    <div class="copy">©MathXs</div>
-    <div class="bottom-links">
-      <div class="links">
-        <span>More Info</span>
-        <a href="rules.html">Rules</a>
-        <a href="https://forms.gle/xzUpNzRdnUnM9phw9">Register</a>
-        <a href="https://www.instagram.com/mathxs_268/">Contact</a>
-      </div>
-      <div class="links">
-        <span>Social Links</span>
-        <a href="https://www.linkedin.com/in/ajantefraser/"><i class="fab fa-linkedin"></i></a>
-        <a href="https://www.instagram.com/mathxs_268/"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.facebook.com/mathxs.tutoring/"><i class="fab fa-facebook"></i></a>
-      </div>
-    </div>
-  </footer>
+    <!-- Site Header -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#" aria-label="MathXs Education Home">
+                <span class="brand-dot" aria-hidden="true"></span>
+                <span class="brand-stack">
+                    <span class="brand-text">MathXs</span>
+                    <span class="brand-edu">Education</span>
+                </span>
+            </a>
+
+
+            <nav class="nav" aria-label="Primary navigation">
+                <a href="#upcoming">Upcoming</a>
+                <a href="#info">Who We Are</a>
+                <a href="#socials">Socials</a>
+            </nav>
+
+            <div class="header-actions">
+                <a class="btn primary" href="#cta">Pi Day 2025</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- SECTION 1: Hero (symbols background + letter intro animation) -->
+        <section class="hero" aria-label="MathXs Education hero">
+            <div class="hero-bg" aria-hidden="true">
+                <div id="symbols" class="symbols"></div>
+            </div>
+
+            <div class="container hero-inner">
+                <p class="eyebrow">Math Support For Antigua & Barbuda</p>
+
+                <h1 class="wordmark" id="wordmark">
+                    <div class="line line-main">
+                        <span class="letters" id="letters-mathxs"></span>
+                    </div>
+
+                    <div class="line line-sub">
+                        <span class="letters small" id="letters-education"></span>
+                    </div>
+                </h1>
+
+                <p class="lead">
+                    A calm, modern place to practice math — with smart hints, quick feedback, and progress you can feel.
+                </p>
+
+                <div class="cta-row">
+                    <a class="btn primary" href="#cta">XXX</a>
+                    <a class="btn" href="#paths">XXXX</a>
+                    <a class="btn ghost" href="#features">What makes it different?</a>
+                </div>
+
+                <ul class="stats" aria-label="Highlights">
+                    <li><span class="stat-num">10–15</span><span class="stat-label">min lessons</span></li>
+                    <li><span class="stat-num">Instant</span><span class="stat-label">feedback</span></li>
+                    <li><span class="stat-num">Real</span><span class="stat-label">confidence</span></li>
+                </ul>
+            </div>
+        </section>
+
+        <!--SECTION 2-->
+        <section class="section" id="upcoming" aria-label="Features">
+            <div class="container">
+                <header class="section-head">
+                    <h2>Upcoming Events</h2>
+                    <p>Activities coming up on March 14, 2026</p>
+                </header>
+
+                <div class="grid-3">
+                    <article class="card">
+                        <h3>MathXs Scavenger Hunt</h3>
+                        <p>10 intense rooms filled with multiple math puzzles. Can you escape?</p>
+                    </article>
+                    <article class="card">
+                        <h3>MathXs Quiz Day</h3>
+                        <p>Short MCQs on our Instagram Page. May the best mathematician win!</p>
+                    </article>
+                    <article class="card">
+                        <h3>MathXs School Takeover</h3>
+                        <p>Visit select schools to see which school is smarter!</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!--SECTION 3-->
+        <section class="section alt" id="info" aria-label="About MathXs">
+            <div class="container">
+                <header class="section-head">
+                    <h2>Who We Are</h2>
+                    <p>MathXs started with a simple goal: make math feel possible for everyone.</p>
+                </header>
+
+                <div class="about">
+                    <div class="about-text">
+                        <h3>Math support that feels human</h3>
+                        <p>
+                            MathXs Education was built to support students across Antigua &amp; Barbuda with calm,
+                            consistent,
+                            confidence-first learning. We focus on clarity, practice that sticks, and guidance that
+                            actually helps.
+                        </p>
+                        <p>
+                            It began as a small community effort — helping friends, classmates, and younger students —
+                            and grew into
+                            something bigger: a place where students can improve without feeling judged.
+                        </p>
+
+                        <ul class="bullets">
+                            <li>Friendly explanations, not pressure</li>
+                            <li>Practice that builds real confidence</li>
+                            <li>Community events like Pi Day + challenges</li>
+                        </ul>
+
+                        <div class="about-actions">
+                            <a class="btn primary" href="#socials">See our content</a>
+                            <a class="btn" href="#upcoming">Upcoming events</a>
+                        </div>
+                    </div>
+
+                    <figure class="about-media">
+                        <!-- Replace with your real image path -->
+                        <img src="assets/about.jpg" alt="MathXs Education team/community moment" loading="lazy">
+                        <figcaption>MathXs: building confidence through practice and community.</figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- SECTION 4: Final CTA -->
+        <section class="section cta" id="socials" aria-label="Social posts">
+            <div class="container">
+                <header class="section-head">
+                    <h2>Social Posts</h2>
+                    <p>Reels, quick quizzes, and challenge clips from our Instagram.</p>
+                </header>
+
+                <div class="reels">
+                    <div class="reels-head">
+                        <button class="btn" type="button" data-reels-prev aria-label="Previous reels">←</button>
+                        <div class="muted">Swipe/scroll or use arrows</div>
+                        <button class="btn" type="button" data-reels-next aria-label="Next reels">→</button>
+                    </div>
+
+                    <div class="reels-track" data-reels-track tabindex="0" aria-label="Instagram reels carousel">
+                        <!-- Replace the URLs with your real REEL embed links -->
+                        <div class="reel card">
+                            <blockquote class="instagram-media"
+                                data-instgrm-permalink="https://www.instagram.com/reel/DQ9DkfAjl9m/"
+                                data-instgrm-version="14"></blockquote>
+                        </div>
+
+                        <div class="reel card">
+                            <blockquote class="instagram-media"
+                                data-instgrm-permalink="https://www.instagram.com/reel/DOnx7Onjkqv/"
+                                data-instgrm-version="14"></blockquote>
+                        </div>
+
+                        <div class="reel card">
+                            <blockquote class="instagram-media"
+                                data-instgrm-permalink="https://www.instagram.com/reel/CtB53RCgrxj/"
+                                data-instgrm-version="14"></blockquote>
+                        </div>
+
+                        <div class="reel card">
+                            <blockquote class="instagram-media"
+                                data-instgrm-permalink="https://www.instagram.com/reel/C4x0YysukjI/"
+                                data-instgrm-version="14"></blockquote>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- IG embed script (required) -->
+            <script async src="https://www.instagram.com/embed.js"></script>
+        </section>
+
+    </main>
+
+    <!--Footer-->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p class="muted">© <span id="year"></span> MathXs Education. All rights reserved.</p>
+            <nav class="footer-nav" aria-label="Footer navigation">
+                <a href="#">Privacy</a>
+                <a href="#">Terms</a>
+                <a href="#">Support</a>
+            </nav>
+        </div>
+    </footer>
+
+    <script src="assets/script.js"></script>
 </body>
 
 </html>
